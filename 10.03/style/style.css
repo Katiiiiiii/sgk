@@ -1,0 +1,60 @@
+body{
+ margin: 50px;
+ display: flex;
+ justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    width: 20px;
+    height: 20px;
+}
+p{
+    margin-left: 10px;
+}
+.button{
+    
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    width: 100px;
+}
+
+
+
+.close{
+    border-color: red;
+}
+.close-text{
+    color: red;
+}
+.close:hover{
+   
+       background-color: black;
+}
+
+
+.open{
+    border-color: green;
+}
+.open-text{
+    color: green;
+}
+.open:hover{
+   
+       background-color: black;
+}
+
+
+.delete{
+    border-color: orange;
+}
+.delete-text{
+    color: orange;
+}
+.delete:hover{
+   
+       background-color: black;
+}
